@@ -70,7 +70,7 @@ yarn hint
 ## 👤 Author
 
 - Github: [@author](https://github.com/abdulsomod1)
-- Twitter: [@author](https://twitter.com/SamcoderT42565)
+- Twitter: [@author](https://twitter.com/codingcoding)
 - Linkedin: [@author](https://www.linkedin.com/in/abdulsomod1/)
 
 ## 🤝 Contributing

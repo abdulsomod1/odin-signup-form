@@ -1,4 +1,4 @@
-# Odin project sign up form 
+# Odin project sign up form
 
 > One paragraph statement about the project.
 

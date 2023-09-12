@@ -1,4 +1,4 @@
-# Odin sign up form
+# Odin project sign up form 
 
 > One paragraph statement about the project.
 
@@ -90,6 +90,5 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
 
 [MIT licensed](./LICENSE).

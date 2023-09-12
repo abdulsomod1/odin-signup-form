@@ -143,3 +143,14 @@ button {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
+
+@font-face {
+  font-family: Norse;
+  src: url('./assets/Norse-Bold.otf');
+}
+
+@font-face {
+  font-family: Norse;
+  font-weight: bold;
+  src: url('./assets/Norse-Bold.otf');
+}

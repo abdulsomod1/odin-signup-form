@@ -8,13 +8,13 @@ Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Other
 
-## Live Demo
+## Project link
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://odin-project-sign-up-form-tenifayo.netlify.app)
 
 ### Development (Running locally)
 

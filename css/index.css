@@ -143,6 +143,11 @@ button {
   margin-bottom: 2rem;
 }
 
+button:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+
 @font-face {
   font-family: Norse;
   src: url('./assets/Norse-Bold.otf');

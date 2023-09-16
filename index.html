@@ -3,10 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="index.css" rel="stylesheet" />
+    <title>Odin sign up form</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <link type="image/x-icon" href="me.jpg" rel="shortcut icon" />
   </head>
   <body>
-    <h1>Hello!</h1>
+    <div class="container">
+      <div class="unsplash-image">
+        <div class="logo-bar">
+          <img
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+            title="unsplash-image"
+            alt="The Odin Project logo"
+            srcset=""
+          />
+          <h1>ODIN</h1>
+        </div>
+      </div>
+
+      <main>
+        <section class="description">
+          <p>
+            This is not a real online service! You know you need something like this in your life to
+            help you realize your deepest dreams. <br />
+            Sign up <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to do.</p>
+        </section>
+
+        <form action="#">
+          <div class="form-container">
+            <p>Let's do this!</p>
+
+            <fieldset>
+              <div class="details-conatiner">
+                <label for="first-name">First Name</label>
+                <input id="first-name" name="first-name" type="text" required />
+              </div>
+              <div class="details-conatiner">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" name="last-name" type="text" required />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="details-conatiner">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div class="details-conatiner">
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="text" required />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="details-conatiner">
+                <label for="confirm-pw">Password</label>
+                <input
+                  id="confirm-pw"
+                  name="confirm-pw"
+                  type="password"
+                  required
+                  pattern="'(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'"
+                />
+              </div>
+              <div class="details-conatiner">
+                <label for="password">confirm Password</label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  required
+                  pattern="'(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'"
+                />
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="button-container">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#" title="subnit-button">Log in</a></p>
+          </div>
+        </form>
+      </main>
+    </div>
   </body>
 </html>
